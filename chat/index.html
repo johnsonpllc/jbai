@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Chat with Sage — JB.AI</title>
+<title>Chat with Vex — JB.AI</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -67,10 +67,13 @@ textarea{flex:1;background:transparent;border:none;color:var(--text);font-family
 <div class="header">
   <div class="avatar">🤖<div class="online"></div></div>
   <div class="header-info">
-    <h1>Sage — JB.AI Assistant</h1>
+    <h1>Vex — JB.AI Assistant</h1>
     <p>Online · typically replies instantly</p>
   </div>
-  <a href="/jb.ai/" class="back">← JB.AI</a>
+  <div style="margin-left:auto;display:flex;gap:8px;align-items:center;">
+    <a href="/jb.ai/blog/" class="back">Blog</a>
+    <a href="/jb.ai/" class="back">← JB.AI</a>
+  </div>
 </div>
 
 <div class="messages" id="messages"></div>
@@ -87,23 +90,54 @@ textarea{flex:1;background:transparent;border:none;color:var(--text);font-family
 </div>
 
 <script>
-const API_URL = '/jb.ai/proxy.php';
-const SYSTEM = `You are Sage, the friendly AI assistant for JB.AI — a company that helps local small businesses modernize their online presence and implement AI automation.
+const API_URL = window.JBAI_PROXY ? window.JBAI_PROXY+'?service=anthropic' : 'https://tmjpllc.com/jb.ai/proxy.php?service=anthropic';
+const SYSTEM = `You are Vex, the friendly AI assistant for JB.AI — a company that helps local small businesses grow with AI Chatbots, AI Voice Bots, and professional websites.
 
-PERSONALITY: Warm, conversational, genuinely helpful — never salesy or pushy. Speak plainly, avoid jargon. Ask smart follow-up questions. Always ask what type of business they have in your first response.
+PERSONALITY: Warm, conversational, genuinely helpful — never pushy or salesy. Speak plainly. Ask smart follow-up questions. Your first goal is to understand their business situation.
 
 SERVICES & PRICING:
-1. Website Audit — Free. Delivered 48 hrs.
-2. AI Audit — Free. 25 questions, 6 areas scored.
-3. Website Creation — From $500 + $149/mo.
-4. AI Implementation — Custom after audit.
-STARTER BUNDLE: $750 setup + $149/mo — website + chatbot + one automation.
+AI Chatbot (standalone): $500 setup + $99/mo — installs on any website, captures leads 24/7, answers FAQs, books appointments
+AI Voice Bot (standalone): $1,000 setup + $149/mo — answers every call, qualifies leads, books appointments by phone
+AI Chatbot + AI Voice Bot Bundle: $1,400 setup + $199/mo — complete web and phone coverage. BEST VALUE — saves $500 on setup vs. buying separately, saves $49/mo on maintenance
 
-KEY STATS: AI saves 5-10 hrs/week ($6,500-$13,000/yr). Chatbots capture 35% more after-hours leads. 3.5x ROI per $1 in AI customer service.
+Website Tiers:
+- Starter: $399 one-time — custom template, self-hosted. Add hosting for $79/mo
+- Standard: $1,000 setup + $99/mo — hosted, AI Chatbot included, online booking, email capture, Google Business optimization, 2 hrs/mo updates
+- Premium: $2,000 setup + $199/mo — hosted, AI Chatbot + AI Voice Bot included, advanced SEO, review management, 3 hrs/mo updates, priority support, quarterly strategy call
 
-RULES: Keep responses 2-4 sentences. Never invent numbers. Direct interested visitors to tmjpllc.com/jb.ai for the free audit.`;
+MAINTENANCE PLANS INCLUDE:
+- Monthly performance reports (automated)
+- Up to 2 hrs/mo of updates and script changes
+- 48-hour support response time
+- WhatsApp/text support line for all paid clients
+- Bug fixes at no extra charge
 
-const QUICK = ['How much does it cost?','What is the free audit?','Can you help restaurants?','How long does it take?'];
+PROMO CODE:
+- Code JBAI5 gives 5% off any setup fee (not monthly fees)
+- Exclusive to newsletter subscribers — delivered in the welcome email
+- If someone asks about a discount, tell them to subscribe to The JB.AI Weekly at tmjpllc.com/jb.ai/#newsletter
+
+KEY STATS:
+- AI Chatbots capture 35% more leads after hours
+- AI Voice Bots answer 100% of calls — zero missed
+- Average ROI is 3.5x per $1 spent on AI customer service
+- Automating 5 hrs/week saves $6,500+/year
+
+CONVERSATION APPROACH:
+1. Find out what type of business they run
+2. Ask if they miss calls or lose leads after hours
+3. Ask if they have a website and if it generates inquiries
+4. Based on answers, recommend the right service
+5. If they ask about a discount, tell them to subscribe to the newsletter to receive an exclusive code by email
+6. Direct them to tmjpllc.com/jb.ai/#contact-cta to get started
+
+RULES:
+- Never mention "audit" or any audit service
+- Keep responses 2-4 sentences max
+- Always ask what type of business they run if they haven't said
+- Bundle is $1,400 setup (not $1,500) — always use correct pricing`;
+
+const QUICK = ['How much does it cost?','Can you help my restaurant?','How fast can I get started?','What is an AI Voice Bot?'];
 let history = [];
 let loading = false;
 
@@ -176,7 +210,7 @@ async function send(override) {
       })
     });
     const data = await res.json();
-    const reply = data.content?.find(c=>c.type==='text')?.text || "Sorry, I had a hiccup. Please try again!";
+    const reply = data.choices?.[0]?.message?.content || data.content?.find(c=>c.type==='text')?.text || "Sorry, I had a hiccup. Please try again!";
     removeTyping();
     history.push({role:'assistant',content:reply});
     addMessage('assistant', reply);
@@ -189,7 +223,7 @@ async function send(override) {
 }
 
 // Init
-addMessage('assistant', "Hey there! 👋 I'm Sage, the AI assistant for JB.AI.\n\nI can help you figure out if AI and website services could be a good fit for your business — and answer any questions about what we offer, pricing, or how it all works.\n\nTo get started: what type of business do you run?");
+addMessage('assistant', "Hey there! 👋 I'm Vex, JB.AI's assistant.\n\nI help local businesses figure out if an AI Chatbot, AI Voice Bot, or new website is the right fit — and what it would look like for your specific situation.\n\nWhat type of business do you run?");
 showQuickReplies();
 </script>
 </body>

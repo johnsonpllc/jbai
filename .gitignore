@@ -1,21 +1,10 @@
-# ── SECRETS — never commit these ──
+# Sensitive — never commit
 config.php
-.user.ini
-.env
-*.env
 
-# ── LOGS ──
-*.log
-logs/
+# Internal Pi tools — not part of the public site
+internal-tools/
 
-# ── OS JUNK ──
+# System files
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# ── EDITOR FILES ──
-.vscode/
-.idea/
-
-# ── INTERNAL TOOLS — Pi only, never deploy to Hostinger ──
-internal/
+*.log

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /jb.ai/
+Disallow: /jb.ai/internal/
+Disallow: /jb.ai/audit/
+
+Sitemap: https://tmjpllc.com/jb.ai/sitemap.xml
