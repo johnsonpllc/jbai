@@ -1,5 +1,17 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-04-23T05:42:15.076Z",
-  "issues": []
+  "updated": "2026-04-24T01:58:47.954Z",
+  "issues": [
+    {
+      "id": 1776995925329,
+      "issueNumber": 1,
+      "date": "2026-04-24T01:58:45.329Z",
+      "subject": "The JB.AI Weekly #1: How to calculate the ROI of an AI Chatbot in 10 minutes",
+      "slug": "issue-1",
+      "spotlight": "🌐 General — AI Benefits for Any Business",
+      "ctas": "Chatbot + Voice Bundle",
+      "mcId": "474f22b26e",
+      "ghPublished": true
+    }
+  ]
 }
