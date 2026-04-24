@@ -1,0 +1,29 @@
+{
+  "id": 1776995925329,
+  "issueNumber": 1,
+  "date": "2026-04-24T01:58:45.329Z",
+  "subject": "The JB.AI Weekly #1: How to calculate the ROI of an AI Chatbot in 10 minutes",
+  "focus": "How AI Chatbots and AI Voice Bots help local service businesses capture more leads after hours.",
+  "spotlight": "🌐 General — AI Benefits for Any Business",
+  "ctas": "Chatbot + Voice Bundle",
+  "sections": {
+    "mainTip": "Here's your quick formula to calculate AI chatbot ROI and prove its value to your local service business.\n\n• **Track after-hours inquiries**: Monitor how many leads come in outside business hours (typically 60-70% of online inquiries happen after 5 PM) and multiply by your average customer value.\n\n• **Calculate response time savings**: Measure current lead response time vs. instant AI responses - every hour of delay reduces conversion chances by 10% [Harvard Business Review](https://hbr.org/2011/03/the-short-life-of-online-sales-leads).\n\n• **Count captured vs. lost leads**: Compare monthly leads before/after AI implementation - most businesses see 25-40% increase in qualified leads within 60 days.\n\n• **Factor in labor costs**: Calculate staff time saved on initial inquiries, appointment scheduling, and basic FAQs (typically 15-20 hours per week for local services).\n\n• **Simple ROI formula**: (Monthly revenue increase - monthly AI cost) ÷ monthly AI cost × 100 = your percentage ROI.",
+    "newsRoundup": "# This Week in AI\n\n**Multimodal AI and Voice Integration Becoming Standard for Small Business Bots**\nVoice-first AI chatbots can now handle natural phone conversations with sub-200ms latency at just $0.10-0.50 per interaction, compared to $5-12 for human agents, enabling 24/7 automated phone support for appointments, orders, and troubleshooting.\n• Why it matters: Small businesses can finally replace expensive phone staff with AI that sounds human and understands diverse accents and industry jargon.\n\n**AI Appointment Booking Shows Transformational 90-Second Results**\nVoice AI agents can complete full appointment bookings in under 90 seconds, with one Fortune 500 retailer recovering $4 million ROI after reducing support tickets by 52% and cart abandonment by 38%.\n• Why it matters: 80% call automation means fewer receptionists needed while customers book anytime in any language.\n\n**Small Business AI Adoption Surges to 58% with Government Backing**\nGenerative AI usage among small businesses jumped from 40% to 58%+ as the AI for Main Street Act begins flowing resources through SBDC and SBA channels.\n• Why it matters: Government support is accelerating mainstream adoption of context-aware AI tools that actually work.",
+    "toolOfWeek": "🛠️ **Calendly** — Seamless appointment scheduling that integrates with your AI chatbot workflows.\n\n• Automates booking, sends reminders, and syncs with Google/Outlook calendars while reducing no-shows\n• Hair salon's AI chatbot qualifies customers, then hands off to Calendly for stylist booking based on service type and availability\n• Set buffer times between appointments in your settings to account for cleanup or prep time your AI bot mentions during conversations",
+    "statOfWeek": "Perfect! I found a compelling stat specifically about small businesses and AI chatbots. Let me format this according to the requirements:\n\n📊 **Small and medium-sized enterprises are growing at the fastest rate in AI chatbot adoption, with a 25.1% CAGR** — [Nextiva](https://www.nextiva.com/blog/conversational-ai-statistics.html)\n\n• While large enterprises currently hold 68.2% of the market, SMBs are catching up fast\n• 34% of small and medium businesses have already implemented AI chatbot solutions by 2025\n• Average 340% ROI in first year with 3-6 month payback periods makes this accessible",
+    "spotlight": "**Why AI Bots Matter for Every Business**\n\nEvery missed call is money walking out your door.\n\n• **Hidden drain:** Businesses lose $62 billion annually from missed calls—that's $1,200 per employee yearly\n• **24/7 lead magnet:** AI chatbots capture prospects while you sleep, converting 35% more leads than static forms\n• **Phone tag killer:** Voice bots handle scheduling, follow-ups, and FAQs instantly—no more endless back-and-forth\n• **Time = money:** Save 5 hours weekly per team member = $15,000+ annual ROI at $60/hour rates\n\nStop letting opportunities slip through the cracks—automate your customer touchpoints today."
+  },
+  "blogSlug": "issue-1",
+  "mcId": "474f22b26e",
+  "ghPublished": false,
+  "selCtas": [
+    {
+      "label": "Chatbot + Voice Bundle",
+      "price": "$1,400 + $199/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact"
+    }
+  ],
+  "brandName": "JB.AI",
+  "newsletterName": "The JB.AI Weekly",
+  "backed_up": "2026-04-24T01:58:46.831Z"
+}
