@@ -42,10 +42,13 @@ ServerSignature Off
     Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
 
-# ── CLEAN URLS: /jb.ai/audit → /jb.ai/audit/index.html ──
+# ── CLEAN URLS ──
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /jb.ai/
+
+    # Skip rewrites for blog subdirectory — Apache handles index.html natively
+    RewriteRule ^blog/ - [L]
 
     # If requesting a directory without trailing slash, add it
     RewriteCond %{REQUEST_FILENAME} -d
