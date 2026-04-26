@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-04-26T05:43:40.338Z",
+  "updated": "2026-04-26T06:07:29.275Z",
   "issues": [
+    {
+      "id": 1777183645284,
+      "issueNumber": 4,
+      "date": "2026-04-26T06:07:25.284Z",
+      "subject": "The JB.AI Weekly #4: How to calculate the cost of a missed lead",
+      "slug": "issue-4",
+      "spotlight": "🌐 General — AI Benefits for Any Business",
+      "ctas": "AI Voice Bot",
+      "mcId": "1e7a861caa",
+      "ghPublished": true
+    },
     {
       "id": 1776995925329,
       "issueNumber": 1,
