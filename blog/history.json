@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-04-24T01:58:47.954Z",
+  "updated": "2026-04-26T02:49:08.329Z",
   "issues": [
+    {
+      "id": 1777171745938,
+      "issueNumber": 2,
+      "date": "2026-04-26T02:49:05.938Z",
+      "subject": "The JB.AI Weekly #2: How to calculate the cost of missed calls for your busi...",
+      "slug": "issue-2",
+      "spotlight": "🌐 General — AI Benefits for Any Business",
+      "ctas": "Chatbot + Voice Bundle",
+      "mcId": "46d980f867",
+      "ghPublished": true
+    },
     {
       "id": 1776995925329,
       "issueNumber": 1,
