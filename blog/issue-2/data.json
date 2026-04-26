@@ -1,0 +1,29 @@
+{
+  "id": 1777171745938,
+  "issueNumber": 2,
+  "date": "2026-04-26T02:49:05.938Z",
+  "subject": "The JB.AI Weekly #2: How to calculate the cost of missed calls for your busi...",
+  "focus": "How AI Voice Bots help local service businesses never miss a call",
+  "spotlight": "🌐 General — AI Benefits for Any Business",
+  "ctas": "Chatbot + Voice Bundle",
+  "sections": {
+    "mainTip": "Here's how to calculate what those missed calls are actually costing your business.\n\n• **Track your missed call volume** – Check your phone system logs or ask your team to count unanswered calls for one week, then multiply by 52 for your annual total.\n\n• **Estimate your conversion rate** – Most local service businesses convert 20-30% of callers into paying customers, so use 25% as your baseline calculation.\n\n• **Calculate average job value** – Add up your last 20 jobs and divide by 20 to get your average customer value per transaction.\n\n• **Do the math** – Multiply missed calls × conversion rate × average job value. A plumber missing 5 calls daily at $300 average jobs loses $113,750 annually.\n\n• **Factor in lifetime value** – Happy customers typically return 2-3 times, so multiply your total by 2.5 for the real impact.\n\n• **Consider AI voice bots** – They answer every call 24/7, converting missed opportunities into booked appointments automatically.",
+    "newsRoundup": "# This Week in AI\n\n**SoundHound AI Acquires LivePerson to Create Omnichannel Voice Platform**\nSoundHound AI acquired LivePerson to combine voice AI technology with digital messaging capabilities that process one billion customer messages monthly, targeting $500M in revenue across 30+ countries.\n• Why it matters: This consolidation signals voice AI infrastructure is becoming standardized and accessible, potentially lowering costs for small businesses implementing automated phone systems.\n\n**G2 Research: 51% of B2B Buyers Now Start with AI Chatbots**\nNew research shows B2B software buyers increasingly begin their purchasing process with AI chatbots rather than search engines, with 69% changing vendor choices based on chatbot guidance.\n• Why it matters: Small businesses risk losing qualified leads if they're not discoverable through AI platforms where customers now start their buying journey.\n\n**Newo.ai Raises $25M for SMB Voice AI Front-Desk Operations**\nThe startup secured Series A funding to provide AI receptionists handling calls, SMS, and WhatsApp for small businesses, with one orthodontics practice generating an additional $400,000 quarterly.\n• Why it matters: Real ROI case studies prove voice AI is moving from experimental to revenue-generating for small business operations.",
+    "toolOfWeek": "🛠️ **Calendly** — Seamlessly turn chatbot conversations into booked appointments.\n\n• Integrates with AI chatbots to automatically schedule meetings, consultations, and service appointments based on real-time availability\n• A dental office's chatbot can instantly book cleaning appointments while answering insurance questions, reducing phone tag by 80%\n• Set buffer times between AI-scheduled appointments to account for prep work and avoid back-to-back booking stress",
+    "statOfWeek": "📊 **Small businesses with fewer than 50 employees are adopting chatbots at a 25.1% compound annual growth rate, the fastest of any business segment** — [Nextiva](https://www.nextiva.com/blog/conversational-ai-statistics.html)\n\n• Your competitors are racing ahead - small and medium enterprises are growing AI adoption faster than large companies\n• You're not alone - 40% of chatbot-using companies are small businesses with under 250 employees  \n• Time to act - 64% of small businesses plan to adopt chatbots by 2026, creating massive competitive pressure",
+    "spotlight": "**Why AI Bots Matter for Every Business**\n\nEvery missed customer interaction is money walking out the door.\n\n• **Hidden drain:** Businesses lose an average of $62,000 annually from missed calls alone\n• **24/7 lead machine:** AI chatbots capture qualified prospects while you sleep, converting 35% more visitors into leads\n• **Phone tag killer:** AI voice bots handle scheduling, follow-ups, and basic inquiries instantly—no more endless back-and-forth\n• **Time = money:** Save 5 hours weekly on routine tasks = $15,000+ in recovered productivity per employee annually\n\nStop letting profit slip through the cracks—automate the basics, focus on growth."
+  },
+  "blogSlug": "issue-2",
+  "mcId": "46d980f867",
+  "ghPublished": false,
+  "selCtas": [
+    {
+      "label": "Chatbot + Voice Bundle",
+      "price": "$1,400 + $199/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact"
+    }
+  ],
+  "brandName": "JB.AI",
+  "newsletterName": "The JB.AI Weekly",
+  "backed_up": "2026-04-26T02:49:07.284Z"
+}
