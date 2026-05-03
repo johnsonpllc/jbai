@@ -1,0 +1,29 @@
+{
+  "id": 1777829379828,
+  "issueNumber": 3,
+  "date": "2026-05-03T17:29:39.829Z",
+  "subject": "The JB.AI Weekly #3: How a chatbot can save time and money",
+  "focus": "Why automating customer service is important so small business can focus on productivtiy",
+  "spotlight": "Salons & Spas",
+  "ctas": "AI Chatbot",
+  "sections": {
+    "mainTip": "## Main Tip\n\nHere's why a chatbot might be your small business's new best friend.\n\n• **24/7 coverage without overtime pay** – Your chatbot never sleeps, gets sick, or takes vacation days, handling customer questions around the clock while you focus on growing your business.\n\n• **Handle the repetitive stuff instantly** – About 80% of customer questions are basic inquiries like hours, pricing, or return policies that chatbots can answer in seconds.\n\n• **Free up your time for what matters** – Instead of spending hours answering the same questions, you can focus on product development, sales calls, or actually running your business.\n\n• **Scale without hiring immediately** – As your customer base grows, your chatbot handles the increased volume without needing to hire additional support staff right away.\n\n• **Collect valuable customer data** – Every interaction gives you insights into what customers really want and where they get stuck in your process.",
+    "newsRoundup": "# This Week in AI\n\n**Voice AI Hits 93% User Satisfaction at Just $0.20 Per Call**\nG2's latest report shows AI voice assistants achieving 9.26/10 recommendation scores while costs plummet from $7-12 per human call to just $0.20 per AI call.\n• Why it matters: Voice AI has moved from experimental to essential, offering enterprise performance at small business prices.\n\n**Small Businesses See 34:1 ROI on $120 Monthly AI Investment**\nRecent case studies reveal businesses spending $120/month on AI tools are generating $4,100/month in benefits without firing staff—just redirecting human talent to revenue-generating activities.\n• Why it matters: AI success comes from capturing missed opportunities, not replacing workers.\n\n**Voice Capabilities Now Standard in 45% of New Chatbot Deployments**\nIndustry analysis shows nearly half of 2026 chatbot launches include voice features, projected to reach 78% by year-end as businesses address rising call volumes and staffing constraints.\n• Why it matters: Voice integration is becoming table stakes, especially for service businesses losing revenue to missed calls.",
+    "toolOfWeek": "🛠️ **Calendly** — Seamless appointment scheduling that turns chatbot conversations into booked meetings.\n\n• Integrates with AI chatbots to automatically schedule appointments when customers express interest, eliminating back-and-forth messaging\n• A dental office's chatbot can instantly book cleaning appointments while answering after-hours inquiries about services and availability  \n• Set buffer times between appointments in Calendly to give your team prep time and avoid rushed customer interactions",
+    "statOfWeek": "📊 **Small and medium businesses are growing AI chatbot adoption at 25.1% annually — fastest growth rate** — [Nextiva](https://www.nextiva.com/blog/conversational-ai-statistics.html)\n\n• SMBs expanding chatbot use faster than large enterprises despite big companies holding 68% market share\n• Average cost per chatbot interaction is $0.50 vs $6.00 for human agents — 12x cost difference  \n• Companies typically save $300,000 annually with 30% reduction in support costs through automation",
+    "spotlight": "**From Booking Chaos to Seamless Service: Serenity Spa's AI Transformation**\n\n**Before:** Serenity Spa's three-person team was drowning in appointment calls, spending 4+ hours daily on scheduling while clients hung up after long hold times. Weekend and evening booking requests went unanswered, costing them an estimated 25% in potential revenue.\n\n**After:** JB.AI's chatbot transformed their operations overnight. The AI now handles 80% of appointment bookings, instantly answering service questions and managing cancellations 24/7. Staff reclaimed 3.5 hours daily to focus on client care, while after-hours bookings increased by 40%.\n\n\"Our clients love the instant responses, and we've reduced no-shows by 30% with automated reminders,\" says owner Maria Rodriguez. \"JB.AI didn't just solve our scheduling nightmare—it elevated our entire customer experience while boosting revenue.\""
+  },
+  "blogSlug": "issue-3",
+  "mcId": "5a091d173d",
+  "ghPublished": false,
+  "selCtas": [
+    {
+      "label": "AI Chatbot",
+      "price": "$500 + $99/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact"
+    }
+  ],
+  "brandName": "JB.AI",
+  "newsletterName": "The JB.AI Weekly",
+  "backed_up": "2026-05-03T19:31:17.287Z"
+}
