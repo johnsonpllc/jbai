@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-04-26T06:18:36.444Z",
+  "updated": "2026-05-03T19:31:18.399Z",
   "issues": [
+    {
+      "id": 1777829379828,
+      "issueNumber": 3,
+      "date": "2026-05-03T17:29:39.829Z",
+      "subject": "The JB.AI Weekly #3: How a chatbot can save time and money",
+      "slug": "issue-3",
+      "spotlight": "Salons & Spas",
+      "ctas": "AI Chatbot",
+      "mcId": "5a091d173d",
+      "ghPublished": true
+    },
     {
       "id": 1777184313943,
       "issueNumber": 2,
