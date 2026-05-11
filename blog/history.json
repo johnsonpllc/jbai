@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-05-03T19:31:18.399Z",
+  "updated": "2026-05-11T04:32:17.000Z",
   "issues": [
+    {
+      "id": 1778459530000,
+      "issueNumber": 4,
+      "date": "2026-05-11T04:32:17.000Z",
+      "subject": "The JB.AI Weekly #4: How to use AI voice bots to capture every after-hours call",
+      "slug": "issue-4",
+      "spotlight": "🌐 General — AI Benefits for Any Business",
+      "ctas": "AI Chatbot",
+      "mcId": "2daa8233a5",
+      "ghPublished": true
+    },
     {
       "id": 1777829379828,
       "issueNumber": 3,
