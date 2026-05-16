@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-05-11T04:32:17.000Z",
+  "updated": "2026-05-16T07:02:14.000Z",
   "issues": [
+    {
+      "id": 1779256939000,
+      "issueNumber": 5,
+      "date": "2026-05-16T07:02:14.000Z",
+      "subject": "The JB.AI Weekly #5: The single biggest mistake when deploying a chatbot — and how to avoid it",
+      "slug": "issue-5",
+      "spotlight": "🌐 General — AI Benefits for Any Business",
+      "ctas": "AI Chatbot",
+      "mcId": "295b26c180",
+      "ghPublished": true
+    },
     {
       "id": 1778459530000,
       "issueNumber": 4,
