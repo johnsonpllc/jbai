@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-05-16T07:02:14.000Z",
+  "updated": "2026-05-17T04:30:37.000Z",
   "issues": [
+    {
+      "id": 1778992237892,
+      "issueNumber": 6,
+      "date": "2026-05-17T04:30:37.000Z",
+      "subject": "The JB.AI Weekly #6: Why your restaurant website is leaking 30% of would-be ...",
+      "slug": "issue-6",
+      "spotlight": "🍽️ Restaurants & Bars",
+      "ctas": "AI Chatbot",
+      "mcId": "769d4b7eaa",
+      "ghPublished": true
+    },
     {
       "id": 1779256939000,
       "issueNumber": 5,
