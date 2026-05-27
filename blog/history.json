@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-05-17T04:30:40.000Z",
+  "updated": "2026-05-27T05:45:08.000Z",
   "issues": [
+    {
+      "id": 1779860708321,
+      "issueNumber": 7,
+      "date": "2026-05-27T05:45:08.000Z",
+      "subject": "The JB.AI Weekly #7: Why text-based AI reminders cut no-shows by 30% in smal...",
+      "slug": "issue-7",
+      "spotlight": "🦷 Dental & Healthcare",
+      "ctas": "AI Chatbot",
+      "mcId": "88e7bd0e16",
+      "ghPublished": true
+    },
     {
       "id": 1779337840000,
       "issueNumber": 6,
