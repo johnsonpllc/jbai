@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-05-27T05:45:08.000Z",
+  "updated": "2026-06-15T01:15:08.000Z",
   "issues": [
+    {
+      "id": 1781486108309,
+      "issueNumber": 8,
+      "date": "2026-06-15T01:15:08.000Z",
+      "subject": "The JB.AI Weekly #8: Three low-cost AI tools that handle inbox triage, meeti...",
+      "slug": "issue-8",
+      "spotlight": "🌐 General — AI Benefits for Any Business",
+      "ctas": "AI Chatbot",
+      "mcId": "1af0f2f278",
+      "ghPublished": true
+    },
     {
       "id": 1779860708321,
       "issueNumber": 7,
