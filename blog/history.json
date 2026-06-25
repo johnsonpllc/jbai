@@ -1,60 +1,16 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-06-15T01:15:08.000Z",
+  "updated": "2026-06-25T04:53:51.525Z",
   "issues": [
     {
-      "id": 1781486108309,
-      "issueNumber": 8,
-      "date": "2026-06-15T01:15:08.000Z",
-      "subject": "The JB.AI Weekly #8: Three low-cost AI tools that handle inbox triage, meeti...",
-      "slug": "issue-8",
-      "spotlight": "🌐 General — AI Benefits for Any Business",
-      "ctas": "AI Chatbot",
-      "mcId": "1af0f2f278",
-      "ghPublished": true
-    },
-    {
-      "id": 1779860708321,
-      "issueNumber": 7,
-      "date": "2026-05-27T05:45:08.000Z",
-      "subject": "The JB.AI Weekly #7: Why text-based AI reminders cut no-shows by 30% in smal...",
-      "slug": "issue-7",
-      "spotlight": "🦷 Dental & Healthcare",
-      "ctas": "AI Chatbot",
-      "mcId": "88e7bd0e16",
-      "ghPublished": true
-    },
-    {
-      "id": 1779337840000,
-      "issueNumber": 6,
-      "date": "2026-05-17T04:30:40.000Z",
-      "subject": "The JB.AI Weekly #6: Why your restaurant website is leaking 30% of would-be reservations",
-      "slug": "issue-6",
-      "spotlight": "🍽️ Restaurants & Bars",
-      "ctas": "AI Chatbot",
-      "mcId": "769d4b7eaa",
-      "ghPublished": true
-    },
-    {
-      "id": 1779256939000,
-      "issueNumber": 5,
-      "date": "2026-05-16T07:02:14.000Z",
-      "subject": "The JB.AI Weekly #5: The single biggest mistake when deploying a chatbot — and how to avoid it",
-      "slug": "issue-5",
-      "spotlight": "🌐 General — AI Benefits for Any Business",
-      "ctas": "AI Chatbot",
-      "mcId": "295b26c180",
-      "ghPublished": true
-    },
-    {
-      "id": 1778459530000,
+      "id": 1782363229112,
       "issueNumber": 4,
-      "date": "2026-05-11T04:32:17.000Z",
-      "subject": "The JB.AI Weekly #4: How to use AI voice bots to capture every after-hours call",
+      "date": "2026-06-25T04:53:49.112Z",
+      "subject": "The JB.AI Weekly #4: Speed is important to customers",
       "slug": "issue-4",
       "spotlight": "🌐 General — AI Benefits for Any Business",
       "ctas": "AI Chatbot",
-      "mcId": "2daa8233a5",
+      "mcId": "297627290a",
       "ghPublished": true
     },
     {
