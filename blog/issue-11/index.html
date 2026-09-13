@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="The JB.AI Weekly #11: The 3-paragraph system prompt that gives your AI a real..."/>
+<title>The JB.AI Weekly #11: The 3-paragraph system prompt that gives your AI a real... | JB.AI Blog</title>
+<link rel="icon" type="image/x-icon" href="/jb.ai/favicon.ico"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/jb.ai/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/jb.ai/favicon-16x16.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/jb.ai/apple-touch-icon.png"/>
+<link rel="canonical" href="https://tmjpllc.com/jb.ai/blog/issue-11/"/>
+<meta property="og:title" content="The JB.AI Weekly #11: The 3-paragraph system prompt that gives your AI a real..."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://tmjpllc.com/jb.ai/blog/issue-11/"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMRVQ09JDE"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CMRVQ09JDE');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The JB.AI Weekly #11: The 3-paragraph system prompt that gives your AI a real...","datePublished":"2026-09-08","author":{"@type":"Person","name":"Taylor","url":"https://tmjpllc.com/jb.ai/about/"},"publisher":{"@type":"Organization","name":"JB.AI","url":"https://tmjpllc.com/jb.ai/"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--background:#e8ebed;--card:#ffffff;--ink:#22272e;--foreground:#333333;--muted-fg:#6b7280;--border:#dcdfe2;--muted-bg:#f9fafb;--primary:#e05d38;--radius:0.75rem;--sans:'Inter',sans-serif;--serif:'Source Serif 4',serif;--mono:'JetBrains Mono',monospace;--shadow-sm:0 1px 3px 0 rgba(0,0,0,.10);--shadow-md:0 4px 14px -2px rgba(51,76,130,.12);}
+body{background:var(--background);color:var(--foreground);font-family:var(--sans);font-size:16px;line-height:1.7;}
+nav{position:sticky;top:0;z-index:100;background:rgba(232,235,237,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);height:66px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo{font-family:var(--serif);font-weight:700;font-size:1.35rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:5px;}
+.logo .dot{color:var(--primary);}
+.logo .ai{font-family:var(--mono);font-size:.7rem;font-weight:700;background:var(--ink);color:#fff;padding:3px 7px;border-radius:6px;letter-spacing:.08em;}
+.nav-links{display:flex;gap:20px;list-style:none;}
+.nav-links a{font-weight:500;font-size:.86rem;color:#52606d;text-decoration:none;}
+.nav-links a:hover,.nav-links a.active{color:var(--primary);}
+.nav-cta{background:var(--ink);color:#fff;font-weight:600;font-size:.85rem;padding:9px 18px;border-radius:.7rem;text-decoration:none;white-space:nowrap;}
+.nav-cta:hover{background:#000;}
+.hero{background:var(--card);border-bottom:1px solid var(--border);padding:50px 5% 42px;}
+.hero-inner{max-width:760px;margin:0 auto;}
+.eyebrow{font-family:var(--mono);font-size:.7rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--primary);display:flex;align-items:center;gap:10px;margin-bottom:14px;font-variant-numeric:tabular-nums;}
+.eyebrow::before{content:'';width:22px;height:1px;background:var(--primary);flex-shrink:0;}
+h1{font-family:var(--serif);font-size:clamp(1.9rem,4vw,2.7rem);font-weight:700;letter-spacing:-.02em;line-height:1.12;color:var(--ink);margin-bottom:14px;}
+.meta{font-family:var(--mono);font-size:.72rem;color:var(--muted-fg);margin-bottom:22px;font-variant-numeric:tabular-nums;}
+.subscribe-bar{background:#fbf3f0;border:1px dashed #e0a48f;border-radius:10px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+.subscribe-bar p{font-size:.86rem;color:var(--foreground);font-weight:500;}
+.subscribe-bar a{background:var(--primary);color:#fff;font-weight:600;font-size:.82rem;padding:9px 16px;border-radius:.7rem;text-decoration:none;white-space:nowrap;}
+.subscribe-bar a:hover{box-shadow:0 8px 22px -8px rgba(224,93,56,.7);}
+.content{max-width:760px;margin:0 auto;padding:40px 5% 60px;}
+.section{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px 30px;margin-bottom:20px;}
+.sec-eyebrow{font-family:var(--mono);font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--primary);margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+.sec-num{color:#b7bec7;font-weight:500;}
+.section h3{font-family:var(--serif);font-size:1.05rem;font-weight:700;color:var(--ink);margin:14px 0 8px;}
+.section p{font-size:.92rem;color:var(--foreground);line-height:1.75;margin-bottom:12px;}
+.section p:last-child{margin-bottom:0;}
+.section a{color:var(--primary);text-decoration:none;border-bottom:1px solid #f0d3c8;}
+.section a:hover{border-bottom-color:var(--primary);}
+.section strong{color:var(--ink);font-weight:600;}
+.section ul{list-style:none;counter-reset:li;margin-bottom:12px;}
+.section ul:last-child{margin-bottom:0;}
+.section ul li{counter-increment:li;position:relative;padding:9px 0 9px 34px;border-bottom:1px dashed #eef0f2;font-size:.92rem;color:var(--foreground);line-height:1.65;}
+.section ul li:last-child{border-bottom:none;}
+.section ul li::before{content:counter(li,decimal-leading-zero);position:absolute;left:0;top:11px;font-family:var(--mono);font-size:.68rem;color:#b7bec7;font-variant-numeric:tabular-nums;}
+.cta-section{background:var(--ink);border-radius:var(--radius);padding:40px 36px;margin-bottom:20px;text-align:center;}
+.cta-section h2{font-family:var(--serif);font-size:1.7rem;font-weight:700;letter-spacing:-.01em;color:#fff;margin-bottom:8px;}
+.cta-section > p{font-size:.9rem;color:#aeb7c2;margin-bottom:24px;line-height:1.7;}
+.cta-btn{display:block;background:var(--primary);color:#fff;font-weight:600;font-size:1rem;padding:15px 24px;border-radius:.7rem;text-decoration:none;margin-bottom:10px;transition:transform .15s,box-shadow .15s;}
+.cta-btn:hover{transform:translateY(-1px);box-shadow:0 8px 22px -8px rgba(224,93,56,.7);}
+.cta-price{font-family:var(--mono);font-size:.76rem;font-weight:400;opacity:.85;font-variant-numeric:tabular-nums;}
+.back-bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-top:10px;}
+.back-bar a{color:var(--primary);text-decoration:none;font-size:.86rem;font-weight:500;}
+.back-bar a:hover{text-decoration:underline;}
+footer{background:var(--ink);padding:26px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+footer p{font-family:var(--mono);font-size:.72rem;color:#6b7480;}
+.ft-links{display:flex;gap:18px;flex-wrap:wrap;}
+.ft-links a{font-size:.78rem;color:#aeb7c2;text-decoration:none;}
+.ft-links a:hover{color:var(--primary);}
+@media(max-width:768px){.nav-links{display:none;}.subscribe-bar{flex-direction:column;align-items:flex-start;}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://tmjpllc.com/jb.ai/" class="logo">JB<span class="dot">.</span><span class="ai">AI</span></a>
+  <ul class="nav-links">
+    <li><a href="https://tmjpllc.com/jb.ai/#ai-services">AI Services</a></li>
+    <li><a href="https://tmjpllc.com/jb.ai/#how-it-works">How it works</a></li>
+    <li><a href="https://tmjpllc.com/jb.ai/#use-cases">Use cases</a></li>
+    <li><a href="https://tmjpllc.com/jb.ai/#pricing">Pricing</a></li>
+    <li><a href="https://tmjpllc.com/jb.ai/#faq">FAQ</a></li>
+    <li><a href="https://tmjpllc.com/jb.ai/blog/" class="active">Blog</a></li>
+  </ul>
+  <a href="https://tmjpllc.com/jb.ai/#contact-cta" class="nav-cta">Book a call</a>
+</nav>
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">The JB.AI Weekly · Issue #11 · September 8, 2026</p>
+    <h1>The 3-paragraph system prompt that gives your AI a real...</h1>
+    <p class="meta">By Taylor · September 8, 2026 · ~4 min read</p>
+    <div class="subscribe-bar">
+      <p>Get this in your inbox every Tuesday — free.</p>
+      <a href="https://tmjpllc.com/jb.ai/#newsletter">Subscribe free →</a>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="section"><p class="sec-eyebrow"><span class="sec-num">01</span>This Week&#x27;s Tip</p><p><strong>Main Tip: The 3-Paragraph System Prompt That Gives Your AI a Real Personality</strong></p>
+<p>Stop letting your AI sound like everyone else's AI.</p>
+<ul>
+<li>Paragraph one is your voice guide: write 2-3 sentences describing how you actually talk, your tone, and what you never say.</li>
+<li>Paragraph two is your context: tell it your role, your audience, and what you are trying to help people accomplish.</li>
+<li>Paragraph three is your rules: list specific dos and don'ts, like "always use short sentences" or "never say the word leverage."</li>
+<li>Read your prompt out loud before saving it. If it sounds stiff, your AI will sound stiff.</li>
+<li>Pull real phrases from your own past writing and paste them directly into the prompt as style examples.</li>
+<li>Test it immediately with something you would normally write yourself, then compare the output side by side.</li>
+</ul></div>
+  <div class="section"><p class="sec-eyebrow"><span class="sec-num">02</span>This Week in AI</p><p><strong>Small Businesses Now Running 5 AI Tools at Once</strong></p>
+<p>The average small business uses a median of five AI tools, with ChatGPT and Google Gemini leading adoption.</p>
+<ul>
+<li>Why it matters: You need a small, intentional stack matched to your workflow, not one magic tool.</li>
+</ul>
+<p><strong>Real ROI Data Is In, But Measurement Is the Catch</strong></p>
+<p>77% of small businesses use AI regularly, with 41% reporting revenue gains, but only when results are tracked.</p>
+<ul>
+<li>Why it matters: Spending without measuring means buying tools that never solve the right problems.</li>
+</ul>
+<p><strong>AI Agents Deliver, But Expect 30 to 90 Days</strong></p>
+<p>Real deployments show response-time wins in weeks, but deeper efficiency gains take 60 to 120 days.</p>
+<ul>
+<li>Why it matters: Start narrow, pick one use case, and build from there.</li>
+</ul></div>
+  <div class="section"><p class="sec-eyebrow"><span class="sec-num">03</span>Tool of the Week</p><p><strong>Canva</strong> — Design professional visuals without hiring a designer.</p>
+<ul>
+<li>Drag-and-drop editor for social posts, menus, flyers, and more</li>
+<li>A bakery creates branded weekly specials graphics in under 10 minutes</li>
+<li>Use the Brand Kit feature to lock in your colors and fonts so every design stays consistent without starting from scratch</li>
+</ul></div>
+  <div class="section"><p class="sec-eyebrow"><span class="sec-num">04</span>Stat of the Week</p><p><strong>83% of growing small businesses have adopted AI, compared to just 55% of declining ones.</strong> — <a href="https://adai.news/resources/statistics/small-business-ai-statistics-2026/" target="_blank" rel="noopener">AdAI News</a></p>
+<ul>
+<li>AI use now correlates directly with business growth, not just tech-savviness.</li>
+<li>Waiting to adopt puts you in the shrinking camp.</li>
+<li>You do not need a big budget — free tools move the needle.</li>
+</ul></div>
+  <div class="section"><p class="sec-eyebrow"><span class="sec-num">05</span>Industry Spotlight — General — AI Benefits for Any Business</p><p><strong>Why AI Bots Matter for Every Business</strong></p>
+<p>Every missed call is a missed paycheck.</p>
+<ul>
+<li>Businesses lose an average of $75,000 annually from missed customer calls and slow follow-up.</li>
+<li>AI Chatbots qualify and capture leads around the clock, even at 2am on a Sunday.</li>
+<li>AI Voice Bots handle scheduling, FAQs, and follow-ups without a single game of phone tag.</li>
+<li>Five hours saved per week equals 260 hours yearly, that is more than six full workweeks returned to your team.</li>
+<li>Lower overhead, faster response, zero burnout.</li>
+</ul>
+<p>The businesses winning right now are not working harder, they are working smarter.</p></div>
+  <div class="cta-section">
+    <h2>Stop losing leads after hours.</h2>
+    <p>Every missed call and unanswered website visit is a customer you'll never get back.<br/>We fix that — 24/7, even when you're closed.</p>
+    <a href="https://tmjpllc.com/jb.ai/#contact-cta" target="_blank" rel="noopener" class="cta-btn" data-cta="AI Chatbot">Buy Your AI Chatbot Now →<br/><span class="cta-price">$500 setup + $99/mo</span></a>
+    <a href="https://tmjpllc.com/jb.ai/#contact-cta" target="_blank" rel="noopener" class="cta-btn" data-cta="AI Voice Bot">Buy Your AI Voice Bot Now →<br/><span class="cta-price">$1,000 setup + $149/mo</span></a>
+    <a href="https://tmjpllc.com/jb.ai/#contact-cta" target="_blank" rel="noopener" class="cta-btn" data-cta="Bundle (both)">Buy Your Bundle (both) Now →<br/><span class="cta-price">$1,400 setup + $199/mo</span></a>
+  </div>
+  <div class="back-bar">
+    <a href="https://tmjpllc.com/jb.ai/blog/">← Back to all issues</a>
+    <a href="https://tmjpllc.com/jb.ai/#newsletter">Subscribe to The JB.AI Weekly →</a>
+  </div>
+</div>
+<footer>
+  <p>© 2026 TMJP LLC · JB.AI · Orange County, CA</p>
+  <div class="ft-links">
+    <a href="https://tmjpllc.com/jb.ai/">Home</a>
+    <a href="https://tmjpllc.com/jb.ai/#ai-services">Services</a>
+    <a href="https://tmjpllc.com/jb.ai/#pricing">Pricing</a>
+    <a href="https://tmjpllc.com/jb.ai/about/">About</a>
+    <a href="https://tmjpllc.com/jb.ai/blog/">Blog</a>
+    <a href="https://tmjpllc.com/jb.ai/#contact-cta">Contact</a>
+  </div>
+</footer>
+
+<script>
+// CTA click tracking — fires purchase_intent for clicks on Stripe or pricing-CTA links
+(function(){
+  function clean(t){ return (t||'').replace(/\s+/g,' ').replace(/[→\u2192»]+\s*$/,'').trim(); }
+  function bind(){
+    var sel = 'a[data-cta], a[href*="buy.stripe.com"], a[href*="#contact-cta"], a[href*="#contact"]';
+    document.querySelectorAll(sel).forEach(function(a){
+      if (a.dataset.gtagBound === '1') return;
+      a.dataset.gtagBound = '1';
+      a.addEventListener('click', function(){
+        if (typeof gtag === 'function') {
+          gtag('event', 'purchase_intent', {
+            link_url: a.href || '',
+            product_name: a.getAttribute('data-cta') || clean(a.innerText || a.textContent || ''),
+            location: 'blog-post',
+            page_path: window.location.pathname,
+            issue_number: '11',
+            outbound: true
+          });
+        }
+      }, { passive: true });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bind);
+  } else {
+    bind();
+  }
+})();
+</script>
+
+</body>
+</html>
