@@ -1,0 +1,44 @@
+{
+  "subject": "The JB.AI Weekly #11: The 3-paragraph system prompt that gives your AI a real...",
+  "issueNumber": 11,
+  "issueDate": "September 8, 2026",
+  "sections": {
+    "mainTip": "**Main Tip: The 3-Paragraph System Prompt That Gives Your AI a Real Personality**\n\nStop letting your AI sound like everyone else's AI.\n\n- Paragraph one is your voice guide: write 2-3 sentences describing how you actually talk, your tone, and what you never say.\n- Paragraph two is your context: tell it your role, your audience, and what you are trying to help people accomplish.\n- Paragraph three is your rules: list specific dos and don'ts, like \"always use short sentences\" or \"never say the word leverage.\"\n- Read your prompt out loud before saving it. If it sounds stiff, your AI will sound stiff.\n- Pull real phrases from your own past writing and paste them directly into the prompt as style examples.\n- Test it immediately with something you would normally write yourself, then compare the output side by side.",
+    "newsRoundup": "**Small Businesses Now Running 5 AI Tools at Once**\nThe average small business uses a median of five AI tools, with ChatGPT and Google Gemini leading adoption.\n- Why it matters: You need a small, intentional stack matched to your workflow, not one magic tool.\n\n**Real ROI Data Is In, But Measurement Is the Catch**\n77% of small businesses use AI regularly, with 41% reporting revenue gains, but only when results are tracked.\n- Why it matters: Spending without measuring means buying tools that never solve the right problems.\n\n**AI Agents Deliver, But Expect 30 to 90 Days**\nReal deployments show response-time wins in weeks, but deeper efficiency gains take 60 to 120 days.\n- Why it matters: Start narrow, pick one use case, and build from there.",
+    "toolOfWeek": "**Canva** — Design professional visuals without hiring a designer.\n\n- Drag-and-drop editor for social posts, menus, flyers, and more\n- A bakery creates branded weekly specials graphics in under 10 minutes\n- Use the Brand Kit feature to lock in your colors and fonts so every design stays consistent without starting from scratch",
+    "statOfWeek": "**83% of growing small businesses have adopted AI, compared to just 55% of declining ones.** — [AdAI News](https://adai.news/resources/statistics/small-business-ai-statistics-2026/)\n\n- AI use now correlates directly with business growth, not just tech-savviness.\n- Waiting to adopt puts you in the shrinking camp.\n- You do not need a big budget — free tools move the needle.",
+    "spotlight": "**Why AI Bots Matter for Every Business**\n\nEvery missed call is a missed paycheck.\n\n- Businesses lose an average of $75,000 annually from missed customer calls and slow follow-up.\n- AI Chatbots qualify and capture leads around the clock, even at 2am on a Sunday.\n- AI Voice Bots handle scheduling, FAQs, and follow-ups without a single game of phone tag.\n- Five hours saved per week equals 260 hours yearly, that is more than six full workweeks returned to your team.\n- Lower overhead, faster response, zero burnout.\n\nThe businesses winning right now are not working harder, they are working smarter."
+  },
+  "ctas": [
+    {
+      "label": "AI Chatbot",
+      "price": "$500 setup + $99/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact-cta"
+    },
+    {
+      "label": "AI Voice Bot",
+      "price": "$1,000 setup + $149/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact-cta"
+    },
+    {
+      "label": "Bundle (both)",
+      "price": "$1,400 setup + $199/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact-cta"
+    }
+  ],
+  "topic": {
+    "id": "queue-013",
+    "focus": "How to write AI prompts that make your chatbot sound like YOU (not a robot)",
+    "mainTip": "The 3-paragraph system prompt that gives your AI a real personality",
+    "spotlight": "general",
+    "addedAt": "2026-05-11T00:00:00-07:00",
+    "addedBy": "taylor",
+    "notes": "Practical/educational, can become evergreen reference"
+  },
+  "generatedAt": "2026-09-08T12:01:50.225447Z",
+  "issueId": "2026-09-08-issue-11",
+  "blogSlug": "issue-11",
+  "ghPublished": true,
+  "brandName": "JB.AI",
+  "newsletterName": "The JB.AI Weekly"
+}
