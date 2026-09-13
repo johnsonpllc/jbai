@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-09-07T18:15:09.000Z",
+  "updated": "2026-09-13T00:00:10.000Z",
   "issues": [
+    {
+      "id": 1789257610041,
+      "issueNumber": 11,
+      "date": "2026-09-13T00:00:10.000Z",
+      "subject": "The JB.AI Weekly #11: The 3-paragraph system prompt that gives your AI a real...",
+      "slug": "issue-11",
+      "spotlight": "General — AI Benefits for Any Business",
+      "ctas": "AI Chatbot",
+      "mcId": "fd39dbd289",
+      "ghPublished": true
+    },
     {
       "id": 1788804909526,
       "issueNumber": 10,
