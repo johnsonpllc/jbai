@@ -1,0 +1,44 @@
+{
+  "subject": "The JB.AI Weekly #12: How smart text-back campaigns turn one-time diners into...",
+  "issueNumber": 12,
+  "issueDate": "September 15, 2026",
+  "sections": {
+    "mainTip": "**Main Tip: Turn a Quiet Tuesday Into a Full House With Smart Text-Back Campaigns**\n\nA single well-timed text can do more for your slow nights than a week of social media posts.\n\n- Capture opt-ins at checkout or on receipts, then let AI segment guests by visit frequency, order type, and last visit date.\n- Send a personalized Tuesday-specific offer within 48 hours of a visit, while your restaurant is still fresh in their mind.\n- Keep messages short and direct: a real offer, a real deadline, a real reason to come back this week.\n- According to [Klaviyo](https://www.klaviyo.com/blog/sms-marketing-benchmarks), SMS open rates average around 98%, making text the highest-attention channel you have.\n- Use AI to auto-pause messages for guests who book, so no one feels spammed after they say yes.\n- Track redemption by day-part to refine your Tuesday offer over time without guesswork.",
+    "newsRoundup": "**This Week in AI**\n\n**Charleston County Offers Free AI Tool Access to 250 Small Businesses**\nPalmetto Goodwill is sponsoring two years of GoodBiz.AI access for local certified small businesses at no cost.\n- Why it matters: County-sponsored AI access is a replicable model other local markets should watch closely.\n\n**Rancho Mirage Chamber Makes AI the Focus of Its Annual Marketing Summit**\nExperts highlighted AI for customer response, data analysis, and operations while stressing human judgment remains essential.\n- Why it matters: The \"human plus AI\" message from local chambers is exactly what small business owners need to hear.\n\n**AI Adoption Is Rising Among SMBs, but Proven ROI Stays Elusive**\n77% of small businesses use AI regularly, yet only 41% report actual revenue increases per a 34,000-business study.\n- Why it matters: Starting small, tracking results, and scaling what works beats buying tools and hoping for the best.",
+    "toolOfWeek": "**Canva** — Design professional visuals without a designer.\n\n- Drag-and-drop tool for creating social posts, flyers, menus, and branded materials\n- A local bakery uses it to turn AI-generated product descriptions into polished weekly special announcements\n- Use the Brand Kit feature to lock in your colors and fonts so every piece looks consistent without starting from scratch",
+    "statOfWeek": "**91% of small businesses using AI report measurable revenue increases.** — [Salesforce via Booth Associates](https://boothassociatesllc.com/ai-statistics-small-business-2026.html)\n\n- Your competitors are already seeing results\n- Tools that once required an engineering team now run on a $20/month subscription\n- Not adopting is now the higher-risk choice",
+    "spotlight": "**Industry Spotlight: Restaurants & Bars**\n\nThe Anchor Grille was losing reservations every Friday night. Calls went unanswered during the dinner rush, and their website sat silent after midnight.\n\nAfter deploying JB.AI's Bundle, everything shifted.\n\nTheir AI Voice Bot now answers every incoming call, takes reservations, and recites daily specials without missing a beat. The AI Chatbot handles the website simultaneously, fielding hours, menu questions, and booking requests around the clock.\n\nWithin 60 days, The Anchor Grille saw a 34 percent increase in confirmed reservations, missed calls dropped from roughly 80 per week to near zero, and front-of-house staff reclaimed time to focus on guests already at the table.\n\nFewer empty seats. Happier staff. A fuller house, seven nights a week."
+  },
+  "ctas": [
+    {
+      "label": "AI Chatbot",
+      "price": "$500 setup + $99/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact-cta"
+    },
+    {
+      "label": "AI Voice Bot",
+      "price": "$1,000 setup + $149/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact-cta"
+    },
+    {
+      "label": "Bundle (both)",
+      "price": "$1,400 setup + $199/mo",
+      "link": "https://tmjpllc.com/jb.ai/#contact-cta"
+    }
+  ],
+  "topic": {
+    "id": "queue-014",
+    "focus": "Restaurants & Bars — using AI to fill empty Tuesday-night tables",
+    "mainTip": "How smart text-back campaigns turn one-time diners into weekly regulars",
+    "spotlight": "restaurants",
+    "addedAt": "2026-05-11T00:00:00-07:00",
+    "addedBy": "taylor",
+    "notes": "Specific use case (off-night promotion), tangible"
+  },
+  "generatedAt": "2026-09-15T12:01:58.475336Z",
+  "issueId": "2026-09-15-issue-12",
+  "blogSlug": "issue-12",
+  "ghPublished": true,
+  "brandName": "JB.AI",
+  "newsletterName": "The JB.AI Weekly"
+}
