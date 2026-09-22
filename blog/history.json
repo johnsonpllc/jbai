@@ -1,7 +1,18 @@
 {
   "brand": "JB.AI",
-  "updated": "2026-09-13T00:00:10.000Z",
+  "updated": "2026-09-22T02:10:09.000Z",
   "issues": [
+    {
+      "id": 1790043009954,
+      "issueNumber": 12,
+      "date": "2026-09-22T02:10:09.000Z",
+      "subject": "The JB.AI Weekly #12: How smart text-back campaigns turn one-time diners into...",
+      "slug": "issue-12",
+      "spotlight": "Restaurants & Bars",
+      "ctas": "AI Chatbot",
+      "mcId": "98a916eb71",
+      "ghPublished": true
+    },
     {
       "id": 1789257610041,
       "issueNumber": 11,
